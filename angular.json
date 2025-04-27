@@ -34,7 +34,12 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "aot": true,
+            "buildOptimizer": true,
+            "optimization": true,
+            "sourceMap": false,
+            "extractCss": true
           },
           "configurations": {
             "production": {
